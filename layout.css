@@ -1,0 +1,26 @@
+h1 {
+  place-self: center;
+  font-size: 3vw;
+  color: rgb(230, 110, 110);
+}
+
+@media (width>=1400px) {
+  body {
+    max-width: 1512px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
