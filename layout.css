@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Hind+Vadodara:wght@300;400;500;600;700&family=Sigmar&display=swap");
+
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
-  place-self: center;
-  font-size: 3vw;
+  font-family: aclonica;
+  text-align: center;
+  font-size: 3.5vw;
   color: rgb(230, 110, 110);
+}
+
+h2 {
+  font-family: aclonica;
+  text-align: center;
+  font-size: 3vw;
+  color: rgb(43, 183, 12);
 }
 
 @media (width>=1400px) {
@@ -22,5 +38,7 @@ img {
   box-sizing: border-box;
 }
 
-body {
-  
+.grid-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
